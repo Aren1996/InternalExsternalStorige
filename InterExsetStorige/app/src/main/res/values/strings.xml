@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InterExsetStorige</string>
+    <string name="internal_storige">Internal Storige</string>
+    <string name="external_storige">Exsternal Storige</string>
+    <string name="read">Read</string>
+    <string name="save">Save</string>
+    <string name="File_read_internal">File read Internal</string>
+    <string name="File_save_Internal">File saved internal</string>
+    <string name="False">False</string>
+    <string name="File_saved_External">File saved External</string>
+    <string name="File_read_External">File read External</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/begraund"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/hz"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/file_name"
+        style="@style/MyEditText"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/file_text"
+        style="@style/MyEditText"
+        tools:ignore="LabelFor" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/internal_storige"
+            style="@style/MyRadioButton"
+            android:buttonTint="@color/blue"
+            android:text="@string/internal_storige"
+            tools:ignore="UnusedAttribute" />
+
+        <RadioButton
+            android:id="@+id/external_storige"
+            style="@style/MyRadioButton"
+            android:buttonTint="@color/red"
+            android:text="@string/external_storige"
+            tools:ignore="RelativeOverlap,UnusedAttribute" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save_button"
+        style="@style/MyButton"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/read_button"
+        style="@style/MyButton"
+        android:text="@string/read" />
+
+</LinearLayout>

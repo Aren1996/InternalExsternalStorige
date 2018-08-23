@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/ten</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:inputType"></item>
+    </style>
+
+    <style name="MyRadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/ten</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="MyButton">
+        <item name="android:layout_width">@dimen/two_hundred</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_margin">@dimen/ten</item>
+    </style>
+
+</resources>
